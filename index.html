@@ -5,21 +5,32 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Pointer Foundation — Coming Soon</title>
   <meta name="description" content="Pointer Foundation is a not-for-profit organisation. Our website is coming soon.">
-  <meta name="theme-color" content="#0f172a">
+  <meta name="theme-color" content="#F5F6F4" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#111A22" media="(prefers-color-scheme: dark)">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@600&family=Inter:wght@400&display=swap" rel="stylesheet">
   <style>
+    /* Brand: shared with PointerPath (amber tile, ink logomark, Outfit + Inter). */
     :root {
-      --bg: #f8fafc;
-      --fg: #0f172a;
-      --muted: #64748b;
-      --accent: #2563eb;
+      --amber: #FFC21A;
+      --ink: #111A22;
+      --bg: #F5F6F4;
+      --fg: var(--ink);
+      --body: #36414B;
+      --muted: #55606B;
+      --font-display: 'Outfit', 'Helvetica Neue', Arial, sans-serif;
+      --font-body: 'Inter', 'Helvetica Neue', Arial, sans-serif;
     }
     @media (prefers-color-scheme: dark) {
       :root {
-        --bg: #0f172a;
-        --fg: #f1f5f9;
-        --muted: #94a3b8;
-        --accent: #60a5fa;
+        --bg: var(--ink);
+        --fg: #FFFFFF;
+        --body: #C5CBD1;
+        --muted: #C5CBD1;
       }
     }
     * { box-sizing: border-box; margin: 0; }
@@ -31,26 +42,28 @@
       padding: 24px 16px;
       background: var(--bg);
       color: var(--fg);
-      font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-family: var(--font-body);
       text-align: center;
-      line-height: 1.5;
+      line-height: 1.55;
     }
     main { max-width: 36rem; }
-    .mark { width: 56px; height: 56px; color: var(--accent); margin-bottom: 24px; }
+    .icon { display: block; width: 88px; height: 88px; margin: 0 auto 28px; }
     h1 {
-      font-size: clamp(2rem, 6vw, 3rem);
-      font-weight: 700;
-      letter-spacing: -0.02em;
+      font-family: var(--font-display);
+      font-size: clamp(2.25rem, 7vw, 3.5rem);
+      font-weight: 600;
+      letter-spacing: -0.03em;
       line-height: 1.1;
     }
-    p { margin-top: 16px; color: var(--muted); font-size: 1.125rem; }
+    p { margin-top: 16px; color: var(--body); font-size: 1.25rem; }
     footer { margin-top: 48px; color: var(--muted); font-size: 0.875rem; }
   </style>
 </head>
 <body>
   <main>
-    <svg class="mark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-      <path d="M5 12h14"/><path d="m13 6 6 6-6 6"/>
+    <svg class="icon" viewBox="0 0 512 512" aria-hidden="true">
+      <rect width="512" height="512" rx="120.32" fill="#FFC21A"/>
+      <path fill="#111A22" transform="translate(144.08 92.16) scale(1.4707)" d="M28.3 0C21.79 6.66 15.04 13.22 9.82 20.98C-5.03 43.07 -4.2 67.42 20.34 82.23L120.21 142.5C98.49 156.18 76.75 175.73 84.65 204.38C86.48 211.01 89.94 216.81 93.31 222.79L144.74 155.72C146.59 153.3 151.81 147.01 152.19 142.86C152.96 134.4 134.9 115.38 129.47 109.51L28.3 0Z"/>
     </svg>
     <h1>Pointer Foundation</h1>
     <p>Our website is coming soon.</p>
