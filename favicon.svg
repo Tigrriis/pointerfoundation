@@ -1,1 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><rect width="32" height="32" rx="7" fill="#2563eb"/><path d="M8 16h16M18 10l6 6-6 6" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="Pointer Foundation icon">
+<title>Pointer Foundation icon</title>
+<rect x="0" y="0" width="512" height="512" rx="120.32" fill="#FFC21A"/>
+<path fill="#111A22" transform="translate(144.08 92.16) scale(1.4707)" d="M28.3 0C21.79 6.66 15.04 13.22 9.82 20.98C-5.03 43.07 -4.2 67.42 20.34 82.23L120.21 142.5C98.49 156.18 76.75 175.73 84.65 204.38C86.48 211.01 89.94 216.81 93.31 222.79L144.74 155.72C146.59 153.3 151.81 147.01 152.19 142.86C152.96 134.4 134.9 115.38 129.47 109.51L28.3 0Z"/>
+</svg>
